@@ -2,4 +2,4 @@
 
 GITHUB kullanımını öğreniyorum.
 
-[Melih Güney] (https://www.melihguney.com)
+[Melih Güney](https://www.melihguney.com)
