@@ -1,0 +1,126 @@
+<!-- 
+    Sayfa dosya türünün HTML olduğunu Türkçe olduğunu tarayıcılara ve spiderlara belirtiyoruz.
+-->
+
+<!DOCTYPE html>
+
+<!--     
+    Sayfa dilinin Türkçe olduğunu lang etiketiyle tarayıcılara ve spiderlara belirtebilirim.
+-->
+
+<html lang="tr">
+
+<!-- 
+     Head tagları arasına eklenen etiketler genellikle tarayıcı ve spiderlara yöneliktir.
+-->
+
+<head>
+
+<!-- 
+    Charset etiketi ile sayfadaki karakter grubunu belirliyoruz. Türkçe karakterler UTF-8 karakter grubuna dahildir. Eğer UTF-8 seçmezsek sayfadaki Türkçe karakterler ASCII olarak görünecektir.
+-->
+
+    <meta charset="UTF-8">
+
+<!-- 
+    Viewport etiketi kullanıcının sayfayı farklı cihazlarda nasıl görüntüleyebileceğini belirleyen etikettir. Bu kodda sayfanın kullanılan cihazının genişliği kadar olacağı ve 1x1 oranında görüneceği belirtilmektedir.
+ -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- 
+    Title etiketi kullanıcının sayfada görmediği fakat özellikle spiderların önemsediği bir etikettir. Title etiketi üç şekilde karşımıza çıkmaktadır.
+    1. Tarayıcımızın sekme başlığında görünür.
+    2. Sayfayı sık kullanılanlara kaydettiğimizde sayfa ismi olarak görünür.
+    3. Google aramalarında sayfa başlığı olarak görünür. 
+-->
+
+    <title>Melih GÜNEY KİMDİR?</title>
+
+</head>
+
+<!--     
+    Sayfada kullanıcı tarafından görünen şeyler body etiketleri arasına yazılmaktadır.
+-->
+
+<body>
+
+<!--
+    HTML işaretleme dilinde başlıklar H etiketiyle belirtiliyor. H1'den H6'ya kadar büyükten küçüğe doğru 6 başlık etiketi bulunuyor. H1 en büyük etiket olmakla birlikte SEO'ya uygunluk açısından her sayfada en fazla bir tane bulunabiliyor. Diğer H etiketlerini hiyerarşiye göre birden fazla kullanabiliyoruz.
+-->
+
+    <h1>MELİH GÜNEY KİMDİR?</h1>
+        
+<!-- 
+    H2 etiketi web programlama da en çok kullanılan başlık etikettir. Genellikle her sayfada 1 tane H1 etiketi varken, birden fazla H2 etiketi bulunmaktadır. Ben burada sadece bir defa H2 etiketi kullandım. Fakat farklı başlıklar oluşturmak isteseydim yine H2 etiketi kullanmam gerekecekti. Bununla birlikte Hakkımda başlığının alt başlığını oluşturmak isteseydim bu sefer de H3 etiketini kullanmam gerekecekti.
+-->
+
+        <h2>Hakkımda</h2>
+
+<!-- 
+    HTML işaretleme dilinde paragraflar <p></p> etiketiyle oluşturulmaktadır. <p></p> etiketine yazacağımız yazılar paragraf olarak kabul edilecektir. Eğer yeni bir paragraf oluşturacaksak yeni bir p etiketi kullanmak zorundayız.
+-->
+
+<!-- 
+    <br> etiketi metnin bir alt satıra geçmesine sebep olur. Metni bir alt satıra iki şekilde geçirebiliriz. Birincisi <br> etiketini kullanarak ya da yeni bir paragraf oluşturarak. İstediğimiz kadar <br> etiketi kullanabiliriz. Her bir etiket metni bir satır aşağıya taşıyacaktır.
+-->
+
+<!--
+    HTML'de metni iki şekilde kalın hale getirebiliriz. Bunlardan ilk <strong> etiketiyken diğer <b> etiketidir. Fonksiyon olarak ikisi de aynı işleve sahiptir. Yalnız <strong> etiketi metni kalınlaştırırken aynı zamanda arama motorlarına ilgili metnin önemli olduğunu belirtmektedir.
+-->
+
+        <p>
+            Merhaba.
+            <br>
+            <br>
+            Ben <strong>Melih GÜNEY</strong>. 
+            <br>
+            <br>
+            İstanbul'da özel bir hastanede <b>Dijital Pazarlama Yöneticisi</b> olarak çalışıyorum. 
+            <br>
+            <br>
+            Aynı zamanda <b>İstanbul Aydın Üniversitesi</b>'nde Öğretim Görevlisi olarak ders veriyorum. 
+        </p>     
+        <p>
+            <b>Öğretim Görevlerisi olarak verdiğim dersler;</b>
+        </p>
+
+<!-- 
+    HTML işaretleme dilinde listemele iki şekilde yapılmaktadır. Eğer sıralı yanı numaralı listeme yapacaksak <ol> etiketini kullanmamı gerekir. Eğer listemizde numaralandırma yapmayacak ve sadece nokta vb. bir şekil ile sıralayacaksak bu sefer de <ul> etiketini kullanacağız.
+-->
+
+        <ol>
+            <li>Soyal Medya Pazarlamaları</li>
+            <li>Sosyal Medya Reklamcılığı</li>
+            <li>Dijital İçerik Üretimi</li>
+        </ol>
+
+        <p>Bilgisayarla ilk kez tanıştığımda 9 yaşındaydım. İlk bilgisayarıma 13 yaşında sahip oldum. İnternetle tanışmam ise lisedeyken hazırlık sınıfına giderken olmuştu. Sanırım sene olarak 96 veya 97 yılıydı. O günden bu yana da bilgisayar ve internet hayatımın her alanında yer aldı.</p>
+
+        <p>Yazılımla çok küçük yaşlarda tanıştım. 15-16 yaşımdayken kendi başıma HTML öğrendim. O zamanlar kaynaklara ulaşım bu kadar kolay değildi. Youtube ve benzeri platformlar yoktu. O dönem internet sayfalarının kaynağını görüntüleyip bilgisayarımda metin dosyasına kaydediyor, ardından da metin dosyasında HTML kodlarını sırayla silerek hangi kodun ne iş yaradığını öğrenmeye çalışıyordum.</p>
+
+        <p>Uzun uğraşlarım sonucunda HTML'in mantığını ve etiketlerin görevlerini kavramayı başarmıştım. Hatta o dönem cjb, 8m.net gibi sitelerde kendi web sayfamı dahi yapmıştım. Fakat sonradan php ve asp gibi dinamik diller ortaya çıktı. Tabii bulunduğum koşullarda bu dilleri tek başıma öğrenmem pek mümkün değildi. Dolayısıyla yazılım serüvenim HTML'i öğrenerek son buldu.</p>
+
+        <p>Şimdi ise bir adımını 40 yaşına atmış biri olarak 20 sene önce yarım bıraktığım işi tamamlamak istiyorum. Bu nedenle hiç bilmiyormuşum gibi sıfırdan HTML'e yeniden başladım. Bundan sonraki hedefim ise sırasıyla CSS ve  Javascript öğrenerek frontend tarafında uzmanlaşmak istiyorum.</p>
+
+        <p>İş yaşantımdan arta kalan zamanlarda ise;</p>
+        
+        <ul>
+            <li>Dota 2 oynamayı</li>
+            <li>Film izlemeyi</li>
+            <li>Bloguma yazı yazmayı</li>
+            <li>Yemek yapmayı</li>
+        </ul>
+
+        <p>seviyorum.</p>
+
+        <h2>İletişim</h2>
+
+<!-- 
+    Eğer sayfamızdan iç veya dış kaynağa bir yönlendirme yapmak istiyorsak a href etiketini kullanıyoruz. Bununla birlikte a href etiketiyle mail de gönderebiliriz. Bunun için de tek yapmamız gereken URL alanına mailto: etiketiyle mail adresini yazmak.
+-->
+
+        <p>Eğer sizde benim gibi pazarlamayı seviyorsanız <b><a href="https://www.melihguney.com" alt="Pazarlama, İletişim, Dijital Dönüşüm">melihguney.com</a></b> isimli blogumu ziyaret ederek, pazarlama üzerine yazdığım yazılarımı okuyabilirsiniz. Ayrıca <b><a href="https://www.linkedin.com/in/melihguney/" alt="Melih Güney Linkedin">Linkedin</a></b> profilimi ziyaret ederek benim hakkımda daha fazla bilgiye ulaşabilir ya da <b><a href="mailto:melihguney@gmail.com" alt="Melih Güney E-mail">melihguney@gmail.com</a></b> adresine mail yollarak görüş ve önerilerinizi iletebilirsiniz.</p>
+
+    </body>
+</html>
