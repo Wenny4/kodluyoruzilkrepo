@@ -18,3 +18,11 @@ Linux için;
 cd kodluyoruzilkrepo
 code .
 ``` 
+
+## CONTRIBUTING
+
+Pull requestler kabul edilir. Büyük değişiklikler için lütfen neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
+
+## LICENCE
+
+[MIT](https://choosealicense.com/licenses/mit/)
