@@ -5,11 +5,6 @@
 !.vscode/launch.json
 !.vscode/extensions.json 
 
-#img
-*.png
-*.jpg
-img/
-
 #videos
 *.mp4
 *.mpeg
