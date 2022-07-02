@@ -6,4 +6,4 @@ Kodluyoruz Eğitimi kapsamında açtığım ilk repo
 
 Öncelikle projeyi clonelayın. (buraya sizin reponuzdan aldığınız link gelecek.)
 
-'''git clone https://github.com/melihguney/kodluyoruzilkrepo.git"""
+`git clone https://github.com/melihguney/kodluyoruzilkrepo.git`
