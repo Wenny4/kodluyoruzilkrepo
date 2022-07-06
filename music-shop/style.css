@@ -41,7 +41,7 @@ header              {
                     }
 
 .product-list       {
-                    margin-top: 50px;
+                    margin-top: 15px;
                     }
 
 .product            {
@@ -73,12 +73,12 @@ header              {
 .add-cart           {
                     height: 35px;
                     margin-top: 10px;
-                    padding-top: 12px;
-                    color: #ffffff;
-                    font-size: 20px;
-                    font-weight: 400;
+                    padding-top: 10px;
+                    color: #2e302f;
+                    font-size: 16px;
+                    font-weight: 600;
                     text-align: center;
-                    background-color:#cb252f;
+                    background-color:#d7d7d7;
                     } 
 
 .info             {
@@ -128,21 +128,12 @@ header              {
                     color:#ffffff;
                     }
 
-.alt-menu           {
+.footer             {
                     text-align: center;
-                    height: 50px;
-                    background-color:#2e302f;
+                    height: 200px;
+                    background-color:#fcfcfc;
                     }
           
-.alt-menu-items     {
-                    font-size: 16px;
-                    font-weight: 600;
-                    text-transform: uppercase;
-                    text-decoration: none;
-                    padding-top: 13px;
-                    padding-right: 15px;
-                    padding-left: 15px;
-                    color:#ffffff;
-                    }
+
 
              
