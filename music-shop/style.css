@@ -1,39 +1,125 @@
-.body
-          {
-          background-color:#FAF3E3;
-          max-width: 900px;
-          margin: auto;
-}
+body           {
+                font-family: 'Poppins', sans-serif;
+                max-width: 900px;
+                margin: auto;
+                }
 
-header
-          {
-          background-color:#ffffff;
-          text-align: center;
-          width: 100%;
-          height: 325px;
+header          {
+                background-color:#ffffff;
+                text-align: center;
+                height: 250px;
+                }
 
-}
+.logo           {
+                text-align: center;
+                margin-top: 35px;
+                }
 
-.logo     {
-          text-align: center;
-          margin-top: 35px;
-          }
-
-.menu     {
-          text-align: center;
-          height: 60px;
-          background-color:#2e302f;
-          } 
+.menu           {
+                text-align: center;
+                height: 50px;
+                background-color:#2e302f;
+                } 
           
-.menuitem {
-          font-family: 'Poppins', sans-serif;
-          font-size: 22px;
-          font-weight: 600;
-          text-align: center;
-          text-transform: uppercase;
-          text-decoration: none;
-          padding-top: 12px;
-          padding-right: 15px;
-          padding-left: 15px;
-          color:#ffffff;
-          } 
+.menuitem       {
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                text-transform: uppercase;
+                text-decoration: none;
+                padding-top: 13px;
+                padding-right: 15px;
+                padding-left: 15px;
+                color:#ffffff;
+                } 
+
+.banner         {
+                margin-top: 10px;
+                background-color:#2e302f;
+                }
+
+.urunler        {
+                margin-top: 50px;
+                }
+
+.urun           {
+                border: 1px solid #E0DECA;
+                margin: 4px;
+                width: 290px;
+                float: left;
+                text-decoration: none;
+                }
+
+.urun-desc      {
+                margin-top: 7px;
+                height: 30px;
+                font-size: 15px;
+                font-weight: 400;
+                text-decoration: none;
+                text-align: center;
+                background-color:#ffffff;
+                }         
+
+.urun-price      {
+                font-size: 18px;
+                font-weight: 600;
+                text-decoration: none;
+                text-align: center;
+                background-color:#ffffff;
+                }  
+
+.urun-cart    {
+                height: 35px;
+                margin-top: 10px;
+                padding-top: 12px;
+                color: #ffffff;
+                font-size: 20px;
+                font-weight: 400;
+                text-align: center;
+                background-color:#cb252f;
+                } 
+
+.bilgi          {
+                margin: 4px;
+                margin-top: 30px;
+                width: 290px;
+                float: left;
+                text-decoration: none;
+                }  
+
+.bilgi-title      {
+                font-family: 'Poppins', sans-serif;
+                font-size: 18px;
+                font-weight: 800;
+                text-transform: uppercase;
+                text-decoration: none;
+                line-height: 25px;
+                padding-top: 13px;
+                padding-right: 15px;
+                padding-left: 15px;
+                }
+
+.bilgi-desc     {
+                font-family: 'Poppins', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                text-decoration: none;
+                line-height: 20px;
+                padding-top: 13px;
+                padding-right: 15px;
+                padding-left: 15px;
+                }  
+
+.deneme         {
+                text-align: center;
+                height: 50px;
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                text-transform: uppercase;
+                text-decoration: none;
+                padding-top: 13px;
+                padding-right: 15px;
+                padding-left: 15px;
+                color:#ffffff;
+                } 
