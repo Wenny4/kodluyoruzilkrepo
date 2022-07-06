@@ -79,7 +79,7 @@ header              {
                     background-color:#cb252f;
                     } 
 
-.bilgi              {
+.info             {
                     margin: 4px;
                     margin-top: 30px;
                     width: 290px;
@@ -87,7 +87,7 @@ header              {
                     text-decoration: none;
                     }  
 
-.bilgi-title        {
+.info-title        {
                     font-family: 'Poppins', sans-serif;
                     font-size: 18px;
                     font-weight: 800;
@@ -99,7 +99,7 @@ header              {
                     padding-left: 15px;
                      }
 
-.bilgi-desc         {
+.info-desc         {
                     font-family: 'Poppins', sans-serif;
                     font-size: 14px;
                     font-weight: 400;
