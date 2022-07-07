@@ -19,13 +19,13 @@ header              {
                     margin-top: 35px;
                     }
 
-.ust-menu                 {
+.ust-menu           {
                     text-align: center;
                     height: 50px;
                     background-color:#2e302f;
                     } 
           
-.ust-menu-item           {
+.ust-menu-item      {
                     font-size: 16px;
                     font-weight: 600;
                     text-transform: uppercase;
@@ -81,7 +81,7 @@ header              {
                     background-color:#d7d7d7;
                     } 
 
-.info             {
+.info               {
                     margin: 4px;
                     margin-top: 10px;
                     margin-bottom: 50px;
@@ -90,7 +90,7 @@ header              {
                     text-decoration: none;
                     }  
 
-.info-title        {
+.info-title         {
                     font-size: 18px;
                     font-weight: 800;
                     text-transform: uppercase;
@@ -99,9 +99,9 @@ header              {
                     padding-top: 13px;
                     padding-right: 15px;
                     padding-left: 15px;
-                     }
+                    }
 
-.info-desc         {
+.info-desc          {
                     font-size: 14px;
                     font-weight: 400;
                     text-decoration: none;
@@ -133,7 +133,17 @@ header              {
                     height: 200px;
                     background-color:#fcfcfc;
                     }
-          
+                    
+.about              {
+                    text-align: center;
+                    margin-top: 60px;
+                    }
 
+.contact            {
+                    text-align: center;
+                    }
 
+ul                  {
+                    list-style-type: none;
+                    }
              
