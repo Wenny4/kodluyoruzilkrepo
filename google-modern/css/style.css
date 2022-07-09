@@ -1,0 +1,256 @@
+.header {
+  list-style-type: none;
+  overflow: hidden;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  float: right;
+  padding-right: 7px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.headerli a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+li.headerli {
+  max-width: 100px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container {
+  text-align: center;
+  margin: 258px 968px 0 968px;
+}
+
+.search-area {
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  height: 44px;
+  margin: 22px 968px 0 980px;
+  width: 584px;
+  border-radius: 50px;
+}
+
+.search-area:hover {
+  box-shadow:0 1px 5px rgba(32,33,36,.28)
+}
+
+.search {
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 8px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.keyboard-img {
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+  margin-right: 10px;
+  
+}
+
+.keyboard-img span {
+  margin-top: 10px;
+  margin-right: 2px;
+  display: flex;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+  vertical-align: middle;
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 24px;
+
+}
+
+.mic-img {
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+  margin-right: 10px;
+}
+
+.mic-img span {
+  color: #9aa0a6;
+  height: 24px;
+  width: 24px;
+  margin-top: 8px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+  vertical-align: middle;
+}
+
+
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 35px !important;
+  margin: -61px 0 0 -28px;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  outline: none;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  width: 440px;
+  height: 35px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  border: none;
+}
+
+.buttons {
+          margin: 18px 42.9% 0 42.9%;
+          float: left;
+}
+
+.googlesearch {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.googlesearch:hover {
+  border: 1px solid #dbdbdb;
+  }
+
+.feelinglucky {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.feelinglucky:hover {
+  border: 1px solid #dbdbdb;
+  }
+
+.lang {
+  margin-top: 90px;
+  padding: 0;
+  text-align: center;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+  font-style: inherit;
+  color: #4d5156;
+}
+
+.lang a {
+  text-decoration: none;
+  color: #1A0DAB;
+}
+.lang a:hover {
+  text-decoration: underline;
+
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#F2F2F2;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  height:44px;
+  width: 100%;
+  margin-left: -5px;
+  line-height: 10px;
+  list-style-type: none;
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
