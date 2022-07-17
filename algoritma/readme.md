@@ -65,7 +65,7 @@ Worst case: [27,22,18,16,6,2]
 [8,11,12,16,21,22]
 ```
 
-## Big-O gösterimini yazınız.
+## Soru 2. Big-O gösterimini yazınız.
 
 ```
 Best case: O=(n.logn)
