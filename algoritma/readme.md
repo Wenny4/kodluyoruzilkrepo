@@ -18,16 +18,16 @@
 ## Soru 1. Big-O gösterimini yazınız.
 
 ```
-Best case: [2,6,16,18,22,27]
-Worst case: [27,22,18,16,6,2]
+Best case: O=(n)
+Average case: O=(n^2)
+Worst case: O=(n^2)
 ```
 
 ## Time Complexity
 
 ```
-Best case: O=(n)
-Average case: O=(n^2)
-Worst case: O=(n^2)
+Best case: [2,6,16,18,22,27]
+Worst case: [27,22,18,16,6,2]
 ```
 
 ## Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer?
@@ -63,4 +63,12 @@ Worst case: O=(n^2)
 [16][21][11] - [8][12][22]
 [16,21][11] - [8,12][22]
 [8,11,12,16,21,22]
+```
+
+## Big-O gösterimini yazınız.
+
+```
+Best case: O=(n.logn)
+Average case: O=(n.logn)
+Worst case: O=(n.logn)
 ```
